@@ -17,6 +17,18 @@ So, the input would be "0001".
 
 x is a lambda that acts the same as an AND gate.
 
+	print(x(0,0))
+	print(x(0,1))
+	print(x(1,0))
+	print(x(1,1))
+
+```
+0
+0
+0
+1
+```
+
 ----
 
 We can also do different amounts of inputs. Here is the truth table of a NOT gate, which has one input:
@@ -29,6 +41,14 @@ We can also do different amounts of inputs. Here is the truth table of a NOT gat
 	x = get("10")
 
 x is now a NOT gate!
+
+	print(x(0))
+	print(x(1))
+
+```
+1
+0
+```
 
 ----
 
