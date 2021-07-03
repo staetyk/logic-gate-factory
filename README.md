@@ -15,7 +15,7 @@ So, the input would be "0001".
 	
 	x = get("0001")
 
-x is a lambda that acts the same as an AND gate.
+`x` is now a lambda that acts the same as an AND gate.
 
 	print(x(0,0))
 	print(x(0,1))
@@ -38,12 +38,12 @@ We can also do different amounts of inputs. Here is the truth table of a NOT gat
 |0|1|
 |1|0|
 
-	x = get("10")
+	y = get("10")
 
-x is now a NOT gate!
+`y` is now a NOT gate!
 
-	print(x(0))
-	print(x(1))
+	print(y(0))
+	print(y(1))
 
 ```
 1
@@ -65,7 +65,7 @@ Here is something that has 3 inputs:
 |1|1|0|0|
 |1|1|1|1|
 
-	x = get("10000001")
+	z = get("10000001")
 
-x now is a set of logic gates, which fulfills the truth table above.
+`z` now is a set of logic gates, which fulfills the truth table above.
 
